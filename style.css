@@ -1,13 +1,24 @@
-#quizContenthide{
-    visibility:hidden;
-    
-   
-}
-#quizContentshow{
-    visibility:visible;
-    
+#quizContent {
+    visibility: hidden;
+    left: 25%;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
 }
 
-#highscores{
+#content {
+    visibility: visible;
+    text-align: center;
+    left: 25%;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+}
 
+#quizContent p {
+    padding: 1em;
+}
+
+#quizContent div {
+    padding: 1em;
 }
