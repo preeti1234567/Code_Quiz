@@ -14,7 +14,7 @@ Maximum high score is 10. Once games is over users intial are displayed with the
 1. *VS Code*
 2. Web Browser
 
-My Code-Quiz Website Link ->  ()
+My Code-Quiz Website Link ->  (https://preeti1234567.github.io/Code_Quiz/)
 
 
 ![screenshot](screenshot1.png)
