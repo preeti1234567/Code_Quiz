@@ -8,8 +8,8 @@
 
 #content {
     visibility: visible;
-    text-align: center;
-    left: 25%;
+    text-align: left;
+    left: 15%;
     margin: auto;
     margin-top: 10%;
     position: absolute;
@@ -21,4 +21,28 @@
 
 #quizContent div {
     padding: 1em;
+}
+
+#finalSubmit {
+    visibility: hidden;
+    left: 25%;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    padding: 5%;
+}
+
+#highScore {
+    visibility: hidden;
+    left: 25%;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    padding: 5%;
 }

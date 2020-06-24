@@ -11,22 +11,22 @@
 
 <body>
 
-    <div class="fixed-top float-left badge-ligh">
+    <div class="fixed-top float-left badge-ligh" id="scoreDiv">
         <span>View High Score :</span><span id="score"></span>
     </div>
-    <div class="float-right badge-light">
+    <div class="float-right badge-light" id="timerDiv">
         <span>Timer :</span><span id="timer"></span>
     </div>
     <div>
         <div id="content">
             <div class="container bg-white container-fluid">
-                <div class="text-center d-flex justify-content-between">
+                <div class="d-flex justify-content-between">
                     <p class="font-weight-bold" style="font-size:20px; padding: 20px">Want to test your knowledge of your Javascript Fundamentals. Give our coding quiz a try! Each quiz has picked at random from a larger group, and they’re all multiple choice. Every time you take the test it will be slightly different.
                     </p>
                 </div>
             </div>
             <div class="text-center">
-                <button type="button" class=" btn btn-info" id="startQuizBtn">Click To Start
+                <button class=" btn btn-info" id="btnStart">Click To Start
                     The Quiz</button>
             </div>
         </div>
@@ -56,10 +56,33 @@
                             id="label4"></span>
                     </label>
             </div>
-            <div id="getchecked">
+            <div id="resultDiv">
+                <hr>
                 <label id="result"></label>
             </div>
-            <script src="script.js"></script>
+        </div>
+        <div id="finalSubmit">
+            <h4>All done!</h3>
+                <br>
+                <label>Score:</label><span id="scorenumber"></span>
+                <br>
+                <label for="initialForName">Enter Initials:</label>
+                <input type="text" id="initialForName">
+                <button id="btnSubmit"> Submit</button>
+
+        </div>
+        <div id="highScore">
+            <label id="lblhigh">Highscore:</label><span id="highscorenumber"></span>
+            <br>
+            <button id="btnGoBack">Go Back</button>
+            <button id="btnDone">Done</button>
+        </div>
+    </div>
+
+
+
+
+    <script src=" script.js "></script>
 </body>
 
 </html>
